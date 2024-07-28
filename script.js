@@ -110,32 +110,8 @@ gsap.to(".pagetwo>h2", {
   },
 });
 
-// gsap.from(".pagetwo>h1",{
-//   // transformOrigin:"100% 0%",
-//   y:100,
-//   // opacity:0,
-//   // duration:0.9,
-//   scrollTrigger:{
-//     trigger:".pagetwo>h1",
-//     scroller:".main",
-//     start:"top 50%",
-//     stagger:0.1
 
-//   }
-// })
 
-// gsap.from(".pagetwo>h2",{
-//   // transformOrigin:"100% 0%",
-//   y:100,
-//   // opacity:0,
-//   duration:0.5,
-//   scrollTrigger:{
-//     trigger:".pagetwo>h2",
-//     scroller:".main",
-//     start:"top 80%",
-
-//   }
-// })
 
 // ------------------------------PAGEFOUR IMAGE CHANGE ON  HOVER-----------------------------------
 
@@ -163,7 +139,7 @@ gsap.from(".pagetwo img", {
 });
 
 gsap.to("svg", {
-  top: "4%",
+  top: "5vh",
   scale: 0.9,
   scrollTrigger: {
     scroller: ".main",
